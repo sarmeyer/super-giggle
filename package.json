@@ -1,5 +1,5 @@
 {
-  "name": "ai-powered-sanity",
+  "name": "sweet-delights-bakery",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
@@ -12,7 +12,8 @@
     "deploy-graphql": "sanity graphql deploy"
   },
   "keywords": [
-    "sanity"
+    "sanity",
+    "bakery"
   ],
   "dependencies": {
     "@sanity/vision": "^3.81.0",
@@ -22,6 +23,7 @@
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
+    "@sanity/cli": "^3.83.0",
     "@sanity/eslint-config-studio": "^5.0.2",
     "@types/react": "^18.0.25",
     "eslint": "^9.9.0",
